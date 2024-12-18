@@ -1,0 +1,17 @@
+body{
+    font-family: "Host Grotesk", serif;
+    margin: 0;
+    background-color: #eeeeee;
+}
+h1, h2{
+    font-family: "EB Garamond", serif;
+    background-color: #eeeeee;
+}
+header{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    padding: 2em;
+}
