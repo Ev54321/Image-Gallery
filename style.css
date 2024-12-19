@@ -5,10 +5,10 @@ body{
 }
 h1, h2{
     font-family: "EB Garamond", serif;
-    background-color: #eeeeee;
+    color: white;
 }
 header{
-    background-image: url();
+    background-image: url("Images/night-4489561_1280.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
