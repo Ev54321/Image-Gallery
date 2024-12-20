@@ -1,7 +1,7 @@
 body{
     font-family: "Host Grotesk", serif;
     margin: 0;
-    background-color: #eeeeee;
+    background-color: #6b54a2;
 }
 h1, h2{
     font-family: "EB Garamond", serif;
@@ -10,8 +10,21 @@ h1, h2{
 header{
     background-image: url("Images/night-4489561_1280.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 25% 70%;
     background-size:cover;
     height: 300px;
     padding: 2em;
+}
+img{
+    border: 8px, solid, #9279bb;
+    border-radius: 10px;
+}
+a:link{
+    color:#a295f1;
+}
+a:visited{
+    color:#22153e
+}
+a:hover{
+    color:#91525d
 }
