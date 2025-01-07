@@ -15,9 +15,25 @@ header{
     height: 300px;
     padding: 2em;
 }
-img{
-    border: 8px, solid, #9279bb;
+header div{
+    background-color: white;
+    padding: 1em;
+    max-width: 98%;
+    width: 30em;
+}
+figure{
+    margin: 0.5em;
+    border-color: #9279bb;
+    border-width: 8px;
+    border-style: solid;
     border-radius: 10px;
+    padding: 0.5em;
+    width: 400px;;
+    background-color: #8468c4;
+    float: left;
+}
+footer{
+    clear: both;
 }
 a:link{
     color:#a295f1;
