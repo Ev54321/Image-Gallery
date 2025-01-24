@@ -1,11 +1,12 @@
 body{
-    font-family: "Host Grotesk", serif;
+    font-family: "Merriweather", serif;
     margin: 0;
-    background-color: #6b54a2;
+    background-color: #1d4179;
+    color: #CDDBF9;
 }
 h1, h2{
-    font-family: "EB Garamond", serif;
-    color: white;
+    font-family: "Karla", serif;
+    color: #D1DAE6;
 }
 header{
     background-image: url("Images/night-4489561_1280.jpg");
@@ -16,31 +17,40 @@ header{
     padding: 2em;
 }
 header div{
-    background-color: white;
-    padding: 1em;
     max-width: 98%;
     width: 30em;
+    padding: 1em;
 }
 figure{
     margin: 0.5em;
-    border-color: #9279bb;
+    border: solid;
+    border-color: #C5E6EC;
     border-width: 8px;
-    border-style: solid;
     border-radius: 10px;
     padding: 0.5em;
-    width: 400px;;
-    background-color: #8468c4;
+    width: 400px;
+    background-color: #122d59;
     float: left;
+    box-shadow: 10px 15px 3px black;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 footer{
     clear: both;
 }
 a:link{
-    color:#a295f1;
+    color:#DEE4F7;
 }
 a:visited{
-    color:#22153e
+    color:#DEE4F7;
 }
 a:hover{
-    color:#91525d
+    color: #D2D8F9;
 }
