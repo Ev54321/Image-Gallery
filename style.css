@@ -8,6 +8,29 @@ h1, h2{
     font-family: "Karla", serif;
     color: #D1DAE6;
 }
+nav {
+    background-color: #1d4179;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    border-bottom: 3px solid #C5E6EC;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em 0.5em;
+    border: 3px solid white;
+    color: #D1DAE6;
+    background-color: #1d4179;
+    border-bottom: #C5E6EC;
+}
+nav a :hover {
+    background-color: #1d4179;
+    color: #D2D8F9;
+}
 header{
     background-image: url("Images/night-4489561_1280.jpg");
     background-repeat: no-repeat;
@@ -33,10 +56,15 @@ figure{
     float: left;
     box-shadow: 10px 15px 3px black;
 }
-img{
+figure img{
     width: 400px;
     height: 400px;
 }
+section{
+    width: 75vw;
+    text-align: center;
+}
+
 main{
     display: flex;
     flex-wrap: wrap;
